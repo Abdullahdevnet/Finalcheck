@@ -96,6 +96,16 @@ body {
   text-decoration: underline;
   text-shadow: 0 0 5px #33e1f1; /* Link glow on hover */
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.get-started-btn {
+  @apply bg-[#00f6ff] text-black font-semibold text-sm sm:text-lg px-6 py-2 rounded-full flex items-center gap-2 shadow-lg transition duration-300 ease-in-out hover:brightness-110;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
