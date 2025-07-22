@@ -226,9 +226,16 @@
   </div>
 </div>
 
-<div class="w-full     md:w-[90%] mt-10 mx-auto">
-<img src="/1920px800.svg" alt="AI Agent Banner">
+<div class="w-full md:w-[80%] mt-10 mx-auto">
+  <picture>
+    <!-- Mobile Image -->
+    <source srcset="/750px450px.svg" media="(max-width: 768px)" />
+    
+    <!-- Desktop Image -->
+    <img src="/1920px800.svg" alt="AI Agent Banner" class="w-full h-auto object-contain" />
+  </picture>
 </div>
+
 
 
 
